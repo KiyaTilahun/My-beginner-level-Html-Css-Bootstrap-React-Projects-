@@ -1,2 +1,86 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Patua+One&family=Rubik:wght@300;400&family=Sniglet&family=Tilt+Neon&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header,section{
+    overflow-x: hidden;
+}
+:root{
+    --lobster: 'Lobster', cursive;
+    --patua: 'Patua One', cursive;
+    --rubik: 'Rubik', sans-serif;
+    --sniglet: 'Sniglet', cursive;
+    --tilt: 'Tilt Neon', cursive;
+    --light-black:#2e2c2a; 
+    --bggradient:linear-gradient(to bottom,#dd2476,#ff512f); 
+    --light-gray:rgba(255, 255, 255, 0.664);
+}
+
+header{
+    
+    background: var(--bggradient)!important;
+    background-color:#dd2476 !important;
+}
+header a{
+    font-family: var(--sniglet);
+    font-size: 0.9em;
+    color:whitesmoke !important;
+
+}
+
+
+/* drop  down display effect */
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow:0px 2px 15px 0px  rgba(0,0,0,0.2)!important ;
+z-index: 1;
+}
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+
+}
+.dropdown-content a:hover{
+background-color:#ddd;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+
+/* styling the navbars */
+header .nav-item:last-child{
+    padding-right: 10.5rem;
+}
+ header .nav-item{
+    padding: 0.9em;
+ }
+ header .navbar-brand{
+    padding-left:8rem;
+ }
+ header a:hover{
+    color:black !important;
+ }
+ header .row .col-md-5{
+    padding: 4.2vmin 1vmin;
+ }
+ header .row .col-md-7{
+    padding: 22vmin 1vmin;
+    padding-bottom: 35vmin;
+ }
+ header .row .col-md-5 img{
+    width: 90% !important;
+ }
+
+
 .shadow-lg
 {box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;}
